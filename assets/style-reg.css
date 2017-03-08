@@ -1,0 +1,155 @@
+/*Header*/
+.header{margin-bottom: 30px;}
+.header .title-step{float: right;}
+
+.header .title-header{margin-top: 20px; float: none;}
+.header .title-header h3{float: right;}
+
+/*Login*/
+.content.login{margin-top: 50px;}
+body.Login .header{display: none;}
+body.Daftar.Akun .step{display: none;}
+
+/*Verifikasi*/
+body.Verifikasi .header{display: none;}
+
+.content.login .login-logo{padding: 40px 0;}
+.content.login .login-logo.width-47.left{position: relative;}
+.content.login .login-logo.width-47.left:after{content: ''; position: absolute;top: 0;right: -10px; bottom: 0; width: 3px; background: #959595;}
+
+.content.login .login-form.width-47.right{padding: 0 20px;}
+.content.login .login-form.width-47.right .title-login{font-weight: bold; font-size: 15px; padding: 10px 0; color: #464646}
+
+/*Home*/
+
+/*Register*/
+.content.register .centered{width: 60%;}
+
+/*Biodata*/
+.content.biodata .centered{width: 60%;}
+
+/*Komite*/
+.content.komite .centered{width: 60%;}
+
+/*Rekomen*/
+.content.rekomen .centered{width: 60%;}
+
+/*Project*/
+.content.project .centered{width: 60%;}
+.content.project span{float: left;width: 100%}
+
+.content.project ul{    float: left; width: 100%;} 
+.content.project ul.izin li {float: left; width: 50%;}
+.content.project ul.izin li h4{ color: #4e4e4e; padding: 18px;}
+
+
+.content.project ul.rusun {float: left; width: 30%; margin-right: 28px;}
+.content.project ul.rusun.three {margin-right: 0}
+
+
+.content.project ul.rusun li{float: none; margin:15px 0;} 
+.content.project ul.rusun.one li{padding-top: 20px;} 
+ 
+.content.project ul.kantor:first-child li{float: left; width: 40%; margin-right: 5px;} 
+.content.project li.divide{float: left; width: 40%; margin-right: 26px;}
+.content.project li.divide-right{float: left; width: 90%;}
+.content.project li.divide-right:last-child{width: 10%; margin-top: 18px; float: right; margin-right: -25px;} .content.project li.divide-right:last-child img{width: 20px;}
+
+
+
+
+.pages{float: left; width: 100%; min-height: 30vh}
+
+/*home*/
+.pages.home{text-align: center; margin-top: 20%; color: #000; text-transform: uppercase;}
+.pages.home span{display: block;}
+
+
+
+/*Dashboard*/
+
+/*.content.dashboard {padding: 0 !important; border-radius: 0;background: rgba(255,255,255,0.9);}*/
+.content.dashboard {padding: 0; background: #fff;}
+.content.dashboard .container{width: 90%;}
+
+.content.dashboard .header{position: relative; border-bottom: 1px solid #e5e5e5; margin-bottom: 0;}
+.content.dashboard .header .logo{position: absolute; left: 0; right: 0;padding: 20px 0;}
+
+.content.dashboard .header .notif{position: relative; font-size: 20px;padding: 40px;z-index: 2}
+.content.dashboard .header .notif a{color: #afafaf;font-weight:}
+
+
+.content.dashboard .menu-dashboard{background: #84d4f3; height: 100%}
+
+.content.dashboard .menu-dashboard .menu-profile{background: #f29a50;padding: 13px 18px;}
+.content.dashboard .menu-dashboard .menu-profile .profile-photo{border-radius: 100%; overflow: hidden; background: #fff;}
+
+.content.dashboard .menu-dashboard .menu-profile .profile-name{padding: 20px 0;}
+.content.dashboard .menu-dashboard .menu-profile .profile-name h3{color: #fff}
+
+.content.dashboard .menu-dashboard .menu-list{margin-top: 50px}
+.content.dashboard .menu-dashboard .menu-list ul{width: 100%; margin: 0 auto; display: table; padding: 0;}
+.content.dashboard .menu-dashboard .menu-list ul li{float: left; width: 100%;}
+.content.dashboard .menu-dashboard .menu-list ul li a{float: left; width: 100%; font-size: 15px; color: #fff; padding: 15px 25px}
+.content.dashboard .menu-dashboard .menu-list ul li a:hover, .content.dashboard .menu-dashboard .menu-list ul li a.active{background: #6EB3CE}
+.content.dashboard .menu-dashboard .menu-list ul li a:hover{background: #6EB3CE}
+.content.dashboard .menu-dashboard .menu-list ul li a .ic{float: left; margin-right: 10px;}
+.content.dashboard .menu-dashboard .menu-list ul li a .txt{float: left;}
+/*.content.dashboard .menu-dashboard .menu-list .list{padding: 10px 0;}
+.content.dashboard .menu-dashboard .menu-list .list:hover{background: #6db4f6;}
+.content.dashboard .menu-dashboard .menu-list li{color: #fff; padding: 0 30px;}
+.content.dashboard .menu-dashboard .menu-list li:first-child{font-size: 30px; width: 30% }
+.content.dashboard .menu-dashboard .menu-list li:last-child{font-size: 18px; width: 50%;padding: 8px 0; margin-left: 20px;}
+*/
+
+
+.content.dashboard .content-dashboard{background: #fff; padding-bottom: 40px;}
+.content.dashboard .content-dashboard .content-top{margin-top: 40px; }
+.content.dashboard .content-dashboard .content-top .content-btn {padding: 20px 0;}
+.content.dashboard .content-dashboard .content-top .content-btn li{float: left; margin-left: 20px;}
+.content.dashboard .content-dashboard .content-top .content-btn li a{color: #9ba3af; border: 2px solid #9ba3af; padding: 10px 12px; border-radius: 100%;}
+.content.dashboard .content-dashboard .content-top .content-btn li a:hover{color: #84d4f3; border-color: #84d4f3}
+.content.dashboard .content-dashboard .content-top .content-btn li a.active{color: #84d4f3; border-color: #84d4f3}
+.content.dashboard .content-dashboard .content-top .content-btn li:first-child{margin-left: 0;}
+
+.content.dashboard .content-dashboard .content-top .profile-img{width: 18%; background: #84d4f3;  border-radius: 100%; overflow: hidden; margin-right: 20px;}
+.content.dashboard .content-dashboard .content-top .profile-desc{margin-top: 20px;}
+.content.dashboard .content-dashboard .content-top .profile-desc li{float: none; margin-bottom: 3px}
+.content.dashboard .content-dashboard .content-top .profile-desc li h2,h4,a{color: #4d4d4d}
+
+.content.dashboard .content-dashboard .menu-top{margin: 40px 0;}
+.content.dashboard .content-dashboard .menu-top li{position: relative; margin-right: 70px; padding: 15px 0;}
+.content.dashboard .content-dashboard .menu-top li a:hover{border-bottom: 3px solid #84d4f3; padding-bottom: 5px}
+.content.dashboard .content-dashboard .menu-top li a.active{border-bottom: 3px solid #84d4f3; padding-bottom: 5px}
+.content.dashboard .content-dashboard .menu-top li:last-child{margin-right: 0; }
+
+/*.content.dashboard .content-dashboard .form-bottom{padding: 50px 30px;}*/
+.content.dashboard .content-dashboard .form-bottom .form-left{margin-right: 30px;}
+
+.content.dashboard .formgroup{margin-bottom: 40px;}
+
+.content.dashboard .formgroup label{font-weight: bold;float: left; width: 100%; margin-bottom: 10px;}
+.content.dashboard .formgroup input{font-size: 20px; position: relative; padding: 10px; width: 100%;}
+.content.dashboard .formgroup input:focus{outline: none;}
+/*.content.dashboard .formgroup input:after{content: ''; width: 0; height: 0; border-bottom: 100px solid #cccccc; border-left: 100px solid transparent;position: absolute; right: 0; bottom: 0;}*/
+.content.dashboard .formgroup input:read-only{background: #fff; border: none; border-bottom: 2px solid #ddd; padding: 0; padding-bottom: 10px;}
+
+.content.dashboard .btn-dashboard input[type=submit]{background: #7cc576; border: none;color: #fff; height: 30px; width: 80px;
+-webkit-filter: drop-shadow(2px 3px 3px rgba(0,0,0,0.3));
+-moz-filter: drop-shadow(2px 3px 3px rgba(0,0,0,0.3));
+filter: drop-shadow(2px 3px 3px rgba(0,0,0,0.3));
+cursor: pointer;
+}
+input:focus{outline: none;}
+
+
+.usaha-head .radio .w{margin-left: 0;}
+.usaha-head .radio input{margin-left: 0;}
+
+
+
+.proyek-full .formgroup{margin-bottom: 10px !important;}
+
+
+
+
